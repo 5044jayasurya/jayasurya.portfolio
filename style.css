@@ -1,0 +1,135 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mooli', sans-serif;
+    background: #a4d8c543;
+}
+
+
+   /*navbar*/
+
+
+
+
+.navbar{
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background: white;
+    position: fixed;
+   z-index: 1000;
+}.navbar-brand{
+    font-size:200%;
+    height: auto;
+    margin-left: 10%;
+    font-weight: bold;
+}.navbar-brand>span,nav>div>ul>li>a{
+    font-size: 120%;
+    color: black;
+    font-weight: 400;
+   
+}nav>div>ul>li>a:hover{
+    color: #015a2b;
+    font-weight: 500;
+}
+
+
+
+/*home*/
+
+
+
+div>nav>div{
+   margin-left: 100px;
+}.container>div>p>span{
+    color: #070707cb;
+    font-weight: bolder;
+            letter-spacing: 0.15em;
+           
+}
+
+
+#home>div>div>a{ 
+    border: 0.1px solid #ec5b5333;
+    border-radius: 10px;
+    color: black;
+    padding: 15px;
+    background: white;
+}
+#home>div>div>a:hover{
+    color: white;
+    background: #015a2b;
+    text-decoration: none;
+    border-color: rgba(162, 157, 157, 0.21);
+}.container>div{
+    width: 100%;
+    align-items: center;
+}
+ #home>div>p{
+   padding-top: 150px;
+    font-size: 6vw;
+    color: #070707cb;
+    line-height: 1.7em;
+}
+@media(min-width:1250px){
+    nav>div{
+        margin-left: 100px;
+        font-weight: bolder;
+    }
+    #home>div>p
+    {
+        padding-top: 160px;
+        font-size: 4.5vw;
+    }
+}
+
+
+/* About Me*/
+
+.about{
+    background: white;
+}
+.about>div{
+    background: #a4d8c51f;
+    border: 1px ;
+    margin-right:10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+     border-radius: 20px;
+    font-size: 25px;
+}h1{
+    color: #015a2b;
+}.skills>.row>div{
+    border: 1px solid #ec5b5333 ;
+    background: #015a2b;
+    color: white;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.skills>.row>div:hover{
+    color: black;
+    background: white;
+}
+
+h1{
+    font-size: 4vw;
+}
+#projects{
+    background: white;
+}.col>h1{
+    font-size: 30px;
+    color: black;
+}.col{
+    background: #a4d8c543;
+    border-radius: 20px;
+}.ppp{
+    border-radius: 20px;
+}
+i{
+   color: #a4d8c543;
+}.project:hover{
+ color: white;
+background: #015a2b;
+transition: 2s;
+transform: scale(1.1);
+}
